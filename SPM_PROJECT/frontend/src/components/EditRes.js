@@ -18,14 +18,14 @@ export default class EditRes extends Component {
 
     ////identify changes and update the state
 
-    handleInputChange = (e) =>{
-        const {name,value} = e.target;
+    // handleInputChange = (e) =>{
+    //     const {name,value} = e.target;
 
-        this.setState({
-            ...this.state,
-            [name]:value
-        })
-    }
+    //     this.setState({
+    //         ...this.state,
+    //         [name]:value
+    //     })
+    // }
 
     //implement onSubmit method
 
