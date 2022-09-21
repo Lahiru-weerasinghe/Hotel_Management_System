@@ -4,7 +4,19 @@ import axios from 'axios'                            //we used for call API and 
 import NavBarCus from './NavBarCus.js';
 
 
+export default class CreateRes extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state={
+            Name:"",
+            ID:"",
+            Phone_No:"",
+            Check_In:"",
+            Check_Out:"",
+            No_Of_Rooms:""
+        }
+    }
 
     //identify changes and update the state
     handleInputChange = (e) =>{
