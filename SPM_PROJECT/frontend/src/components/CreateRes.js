@@ -29,38 +29,38 @@ export default class CreateRes extends Component {
     }
 
     //implement onSubmit method 
-    onSubmit = (e) =>{  
-        e.preventDefault();
+    // onSubmit = (e) =>{  
+    //     e.preventDefault();
 
-        const {Name,ID,Phone_No,Check_In,Check_Out,No_Of_Rooms} = this.state;
+    //     const {Name,ID,Phone_No,Check_In,Check_Out,No_Of_Rooms} = this.state;
 
-        const data ={
-            Name:Name,
-            ID:ID,
-            Phone_No:Phone_No,
-            Check_In:Check_In,
-            Check_Out:Check_Out,
-            No_Of_Rooms:No_Of_Rooms
-        }
+    //     const data ={
+    //         Name:Name,
+    //         ID:ID,
+    //         Phone_No:Phone_No,
+    //         Check_In:Check_In,
+    //         Check_Out:Check_Out,
+    //         No_Of_Rooms:No_Of_Rooms
+    //     }
 
-        console.log(data)                              // converts HTML tags into the JavaScript function and also it sends our 			
-                                                        //data to console log in our web browser
-        axios.post("/Res/save",data).then((res) =>{
-            if(res.data.success){
-                alert("Reserved successfully");
-                this.setState(
-                    {
-                        Name:"",
-                        ID:"",
-                        Phone_No:"",
-                        Check_In:"",
-                        Check_Out:"",
-                        No_Of_Rooms:"" 
-                    }
-                )
-            }
-        })
-    }
+    //     console.log(data)                              // converts HTML tags into the JavaScript function and also it sends our 			
+    //                                                     //data to console log in our web browser
+    //     axios.post("/Res/save",data).then((res) =>{
+    //         if(res.data.success){
+    //             alert("Reserved successfully");
+    //             this.setState(
+    //                 {
+    //                     Name:"",
+    //                     ID:"",
+    //                     Phone_No:"",
+    //                     Check_In:"",
+    //                     Check_Out:"",
+    //                     No_Of_Rooms:"" 
+    //                 }
+    //             )
+    //         }
+    //     })
+    // }
 
 
 
