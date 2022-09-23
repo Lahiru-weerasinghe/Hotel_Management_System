@@ -1,0 +1,28 @@
+#upcolor
+{
+    background-color:black;
+    
+}
+
+#middle-Text
+{
+font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  
+}
+
+#righttext
+{
+    float: right;
+    width: 42%;
+}
+
+#rightTextStyle{
+    padding-top: 10rem;
+    font-size: 20px;
+    font-family: "Sofia", sans-serif;
+    padding-right: 6rem;
+}
+
