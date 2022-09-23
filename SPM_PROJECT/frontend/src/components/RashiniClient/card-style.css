@@ -1,0 +1,46 @@
+/* body{
+    background:radial-gradient(#e5e5e5,#ffff,#e5e5e5);
+}
+
+.card{
+    width:25rem;
+    
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
+}
+
+.card-body{
+    padding: 3rem 0 !important;
+}
+
+.card-text{
+    font-size: 0.9rem;
+    padding: 0.4rem 1.9rem;
+
+}
+
+.container-fluid .row{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.container-fluid .row1{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+
+.card-img-top{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+.card-img-top:hover{
+    transform: scale(1.8);
+} */
