@@ -1,0 +1,67 @@
+.h1{
+    font-size: 25px;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: red;
+}
+ 
+
+     .city
+     {
+      font-family: Times, serif;
+      color: rgb(25, 0, 255);
+      border: 1px solid rgb(27, 7, 119);
+     }
+     
+
+#left
+{
+  float: left;
+  width: 60%;
+  background-color: #fbf5e6c9;
+}
+
+#right
+{
+  float: right;
+  width: 40%;
+  background-color: #fbf5e6c9;
+}
+
+
+#btn1
+
+{
+ 
+ background-color:#4CAF50;
+  color: black; 
+  border: 2px solid #4CAF50;
+  margin-right: 10%;
+}
+
+.label {
+  color: white;
+  padding: 8px;
+}
+
+.form-group1 {
+    font-size: 25px;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: rgb(65, 57, 167);
+    text-align: start;
+}
+.form-Payments1{
+  color: rgb(255, 0, 0);
+  text-align: center;
+
+}
+.form-control{
+  text-align: start;
+   
+}
+ 
+.form-select{
+  text-align: start;
+  
+}
+
+  
