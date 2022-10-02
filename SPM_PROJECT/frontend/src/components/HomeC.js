@@ -8,6 +8,9 @@ import image from '../images/backQ3.jpg'
 
 
 export default class HomeA extends Component {
+    
+    
+    
     render() {
         return (
             <div className="jumbotron">
