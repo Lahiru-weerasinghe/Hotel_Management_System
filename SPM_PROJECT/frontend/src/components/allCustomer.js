@@ -76,13 +76,13 @@ export default class allCustomer extends Component{
             <h2>All Customer Details</h2>
           </div>
           <div className="col-lg-3 mt-2 mb-2">
-            {/* <input 
+            <input 
             className="form-control"
             type="search"
             placeholder="Search"
             name="searchQuery"
             onChange={this.handleSearchArea}>   
-            </input> */}
+            </input>
           </div>
         </div>
          
@@ -120,9 +120,9 @@ export default class allCustomer extends Component{
                      </a>
                      &nbsp; 
 
-                     {/* <a className="btn btn-danger" href={`#`} onClick={() =>this.onDelete(customers._id)}>
+                     <a className="btn btn-danger" href={`#`} onClick={() =>this.onDelete(customers._id)}>
                      <i className="far fa-trash-alt"></i>&nbsp;Delete
-                     </a> */}
+                     </a>
                      </td>
                    </tr>
                  ))}
@@ -130,8 +130,8 @@ export default class allCustomer extends Component{
              </table>
 
              
-             {/* <button className="btn btn-success"><a href="/report" style={{textDecoration:'none',color:'white'}}>generate Report</a></button>
-             &nbsp; */}
+             <button className="btn btn-success"><a href="/report" style={{textDecoration:'none',color:'white'}}>generate Report</a></button>
+             &nbsp;
             
              <button className="btn btn-success"><a href="/readRequest" style={{textDecoration:'none',color:'white'}}>Check New Requests</a></button>
              </div>
