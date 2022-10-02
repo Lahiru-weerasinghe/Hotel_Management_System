@@ -130,8 +130,8 @@ export default class allCustomer extends Component{
              </table>
 
              
-             {/* <button className="btn btn-success"><a href="/report" style={{textDecoration:'none',color:'white'}}>generate Report</a></button>
-             &nbsp; */}
+             <button className="btn btn-success"><a href="/report" style={{textDecoration:'none',color:'white'}}>generate Report</a></button>
+             &nbsp;
             
              <button className="btn btn-success"><a href="/readRequest" style={{textDecoration:'none',color:'white'}}>Check New Requests</a></button>
              </div>
