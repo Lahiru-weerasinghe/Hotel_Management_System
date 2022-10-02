@@ -7,6 +7,9 @@ const thStyle = {
   fontFamily: "Anton",
   fontWeight: "normal",
   fontStyle: "normal"
+  
+  
+  
 };
 
 class ComponentToPrint extends React.Component {
