@@ -120,9 +120,9 @@ export default class allCustomer extends Component{
                      </a>
                      &nbsp; 
 
-                     {/* <a className="btn btn-danger" href={`#`} onClick={() =>this.onDelete(customers._id)}>
+                     <a className="btn btn-danger" href={`#`} onClick={() =>this.onDelete(customers._id)}>
                      <i className="far fa-trash-alt"></i>&nbsp;Delete
-                     </a> */}
+                     </a>
                      </td>
                    </tr>
                  ))}
