@@ -76,13 +76,13 @@ export default class allCustomer extends Component{
             <h2>All Customer Details</h2>
           </div>
           <div className="col-lg-3 mt-2 mb-2">
-            {/* <input 
+            <input 
             className="form-control"
             type="search"
             placeholder="Search"
             name="searchQuery"
             onChange={this.handleSearchArea}>   
-            </input> */}
+            </input>
           </div>
         </div>
          
