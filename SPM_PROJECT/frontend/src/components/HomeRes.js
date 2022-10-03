@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from 'react';
 import axios from 'axios';
 //import posts from '../../models/posts.js';
@@ -198,3 +199,5 @@ export default class HomeRes extends Component {
     )
   }
 }
+=======
+>>>>>>> 4421a8854692b72e37806689325610cc44cc9a75
