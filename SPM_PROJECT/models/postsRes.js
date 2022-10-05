@@ -1,15 +1,11 @@
-//import mongoose
 const mongoose = require('mongoose');
-
-
-
 
 const postSchemaRes = new mongoose.Schema({
     Name:{
         type:String,
         required: true
     },
-    NIC:{
+    ID:{
         type:String,
         required: true
     },
@@ -17,24 +13,19 @@ const postSchemaRes = new mongoose.Schema({
         type:String,
         required: true
     },
-    Package_Type:{
+    Check_In:{
         type:String,
         required: true
     },
-    Check_In_Date:{
+    Check_Out:{
         type:String,
         required: true
     },
-    Check_In_Time:{
+    No_Of_Rooms:{
         type:String,
         required: true
     }
-    
-
 
 });
 
-
-//DB name is Extra_Facilities
-//created module export to the DB
-module.exports = mongoose.model('Extra_Facilities',postSchemaRes);
+module.exports = mongoose.model('Room_Reservations',postSchemaRes);
