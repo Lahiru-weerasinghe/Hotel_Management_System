@@ -10,6 +10,8 @@ const thStyle = {
   
   
   
+  
+  
 };
 
 class ComponentToPrint extends React.Component {
