@@ -7,7 +7,7 @@ export default class ResDetails extends Component {
         super(props);
 
         this.state={
-            post:{}                   // post = queRes
+            post:{}             // post = queRes
         };
     }
 
