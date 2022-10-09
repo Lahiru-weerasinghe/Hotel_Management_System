@@ -13,6 +13,8 @@ const thStyle = {
 };
 
 class ComponentToPrint extends React.Component {
+  
+  
 
   constructor(props){
     super(props);
