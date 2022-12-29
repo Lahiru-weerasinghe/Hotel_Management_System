@@ -1,0 +1,17 @@
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height:800px;
+  }
+  
+  .each-slide span {
+    font-size: 50px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    display:table;
+    margin:0 auto;
+    font-family: Bonheur Royale;
+  }
